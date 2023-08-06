@@ -17,4 +17,9 @@
 - Create a new folder on you Desktop and open a GitBash terminal. 
 - In your terminal, type git clone {PASTE THE LINK HERE}
 - Once cloned, open this in Visual Studio and Right Click on the solution and select Restore NuGet Packages
-- Click 
+- Click the Run Button and have some fun!
+
+## Unit Testing
+- I did not cover everything, but wanted to show you that I do write my own unit tests.
+- You will see a combination of FACT and THEORY tests.
+- Please run the testing suite in Visual Studio to see that they all pass.
