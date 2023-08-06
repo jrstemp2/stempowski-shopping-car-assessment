@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jrste\\.nuget\\packages\\": {},
+    "C:\\Users\\John\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jrste\\Desktop\\Johns Work\\StempowskiShoppingCart\\StempowskiShoppingCart.csproj",
+      "projectUniqueName": "C:\\Users\\John\\Desktop\\Johns Work\\trythis\\stempowski-shopping-car-assessment\\StempowskiShoppingCart\\StempowskiShoppingCart.csproj",
       "projectName": "StempowskiShoppingCart",
-      "projectPath": "C:\\Users\\jrste\\Desktop\\Johns Work\\StempowskiShoppingCart\\StempowskiShoppingCart.csproj",
-      "packagesPath": "C:\\Users\\jrste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jrste\\Desktop\\Johns Work\\StempowskiShoppingCart\\obj\\",
+      "projectPath": "C:\\Users\\John\\Desktop\\Johns Work\\trythis\\stempowski-shopping-car-assessment\\StempowskiShoppingCart\\StempowskiShoppingCart.csproj",
+      "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\John\\Desktop\\Johns Work\\trythis\\stempowski-shopping-car-assessment\\StempowskiShoppingCart\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jrste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

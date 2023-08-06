@@ -1,4 +1,5 @@
-using StempowskiShoppingCart;
+using StempowskiShoppingCart.Controllers;
+using StempowskiShoppingCart.Models;
 
 namespace StempowskiShoppingCartUnitTests
 {
@@ -13,7 +14,8 @@ namespace StempowskiShoppingCartUnitTests
             {
                 ItemName = "TestItem!",
                 Price = (decimal)4.00,
-                IsBook = false,
+                IsTaxExempt = false,
+                IsImported = false,
                 Quantity = 1,
 
             },
@@ -21,7 +23,16 @@ namespace StempowskiShoppingCartUnitTests
             {
                 ItemName = "Cook Book",
                 Price = (decimal)2.00,
-                IsBook = true,
+                IsTaxExempt = true,
+                IsImported = false,
+                Quantity = 2,
+            },
+            new MerchandiseItem()
+            {
+                ItemName = "Cook Book",
+                Price = (decimal)2.00,
+                IsTaxExempt = false,
+                IsImported = true,
                 Quantity = 2,
             }
         };
@@ -32,9 +43,9 @@ namespace StempowskiShoppingCartUnitTests
             var result = _controller.GenerateReceipt(mockShoppingCart);
 
             Assert.NotNull(result);
-            Assert.Equal(8, result.SubTotal);
-            Assert.Equal((decimal).60, result.SalesTax);
-            Assert.Equal((decimal)8.60, result.GrandTotal);
+            Assert.Equal(12, result.SubTotal);
+            Assert.Equal((decimal)1.00, result.SalesTax);
+            Assert.Equal((decimal)13.00, result.GrandTotal);
         }
 
         [Theory]
