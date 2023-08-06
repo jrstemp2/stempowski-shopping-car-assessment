@@ -8,6 +8,10 @@
 - If i had more time, I would also have taken the test coverage up to 100% as that is the standard of my current employer and a good rule of thumb. 
 - It's been a long time since I made a console application and I forgot how many while loops I would need to make this work as desired. I added a lot of validation to really control the quality of what is typed in the consiole b the end user. 
 
+### Running the app from your terminal
+- If you do not want to run the app from Visual studio, you can open a terminal run it that way.
+- Navigate to the StempowskiShoppingCart directory in your terminal and type dotnet run. This should start the application.
+
 ### Sales Tax
 - I have used a Math.Ceiling to force UP to the nerest 5 cents. If Tax is 1.7015 it will round up to 1.75. This is how I understood the instructions.
 - If the item being bought is not tax free and it is imported, Sales tax will be 10% plus 5% import tax.
