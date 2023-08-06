@@ -6,7 +6,7 @@ using StempowskiShoppingCart.Models;
 ReceiptController controller = new ReceiptController();
 List<MerchandiseItem> shoppingCart = new List<MerchandiseItem>();
 var goShopping = true;
-Console.WriteLine("Wanna Shop?");
+Console.WriteLine("Welcome to John-Mart! Would you like to shop?");
 
 while (goShopping)
 {

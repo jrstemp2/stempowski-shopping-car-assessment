@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\John\\Desktop\\Johns Work\\trythis\\stempowski-shopping-car-assessment\\StempowskiShoppingCart\\StempowskiShoppingCart.csproj",
+      "projectUniqueName": "C:\\Users\\John\\Desktop\\Johns Work\\trythis\\stempowski-shopping-cart-assessment\\StempowskiShoppingCart\\StempowskiShoppingCart.csproj",
       "projectName": "StempowskiShoppingCart",
-      "projectPath": "C:\\Users\\John\\Desktop\\Johns Work\\trythis\\stempowski-shopping-car-assessment\\StempowskiShoppingCart\\StempowskiShoppingCart.csproj",
+      "projectPath": "C:\\Users\\John\\Desktop\\Johns Work\\trythis\\stempowski-shopping-cart-assessment\\StempowskiShoppingCart\\StempowskiShoppingCart.csproj",
       "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\John\\Desktop\\Johns Work\\trythis\\stempowski-shopping-car-assessment\\StempowskiShoppingCart\\obj\\",
+      "outputPath": "C:\\Users\\John\\Desktop\\Johns Work\\trythis\\stempowski-shopping-cart-assessment\\StempowskiShoppingCart\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

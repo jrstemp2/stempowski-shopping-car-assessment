@@ -41,7 +41,6 @@ namespace StempowskiShoppingCart.Controllers
 
         public bool ShopWithMe(string? clientInput)
         {
-            //Console.Clear();
             var goShopping = true;
 
             while (goShopping)
@@ -72,7 +71,7 @@ namespace StempowskiShoppingCart.Controllers
         {
             MerchandiseItem merchandiseItem = new MerchandiseItem();
 
-            Console.WriteLine("What is the name of the item you want to buy?");
+            Console.WriteLine("What is the name of the item you want to buy? If you don't put a name in here it's ok. I'll just call it a Mystery Item.");
             merchandiseItem.ItemName = validateStrings(Console.ReadLine());
             Console.Clear();
 
@@ -144,7 +143,7 @@ namespace StempowskiShoppingCart.Controllers
             {
                 if (!int.TryParse(clientInput, out quantity))
                 {
-                    Console.WriteLine("That isnt a number. Please try a whole number");
+                    Console.WriteLine("That isnt a number. Please try a whole number. If it isn't a whole number, I'm going to keep asking for one!");
                     clientInput = Console.ReadLine();
                     Console.Clear();
                 }
@@ -190,7 +189,7 @@ namespace StempowskiShoppingCart.Controllers
                 if (string.IsNullOrEmpty(clientInput) || clientInput.ToLower() != "yes" && clientInput.ToLower() != "no")
                 {
                     Console.Clear();
-                    Console.WriteLine("Hmm... I don't understand what you are trying here. Please type yes or no. So is this a book?");
+                    Console.WriteLine("Hmm... I don't understand what you are trying here. Please type yes or no. So is this a book, food or medical?");
                     clientInput = Console.ReadLine();
                     continue;
                 }
@@ -220,7 +219,7 @@ namespace StempowskiShoppingCart.Controllers
                 if (string.IsNullOrEmpty(clientInput) || clientInput.ToLower() != "yes" && clientInput.ToLower() != "no")
                 {
                     Console.Clear();
-                    Console.WriteLine("Hmm... I don't understand what you are trying here. Please type yes or no. So is this a book?");
+                    Console.WriteLine("Hmm... I don't understand what you are trying here. Please type yes or no. So is this imported?");
                     clientInput = Console.ReadLine();
                     continue;
                 }

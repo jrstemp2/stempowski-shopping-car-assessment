@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5DI3fsUx4Ll8AGmncaZxfXLDb4Aw65EHlVQAxHXFBSAICmKffxKAcBHi/SCaGELBzXS+jIQv2AYiTtJCIrIaog==",
+  "dgSpecHash": "lJ0DgebVeoyaIVaTOWzq41fs+S1RQMJhNpiJJA40FTRcUMpog4w3pRO7Q4jBZn1otw1VNlIILTyqPLpS72AZtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\John\\Desktop\\Johns Work\\trythis\\stempowski-shopping-car-assessment\\StempowskiShoppingCartUnitTests\\StempowskiShoppingCartUnitTests.csproj",
+  "projectFilePath": "C:\\Users\\John\\Desktop\\Johns Work\\trythis\\stempowski-shopping-cart-assessment\\StempowskiShoppingCartUnitTests\\StempowskiShoppingCartUnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\John\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\John\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
